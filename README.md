@@ -17,6 +17,7 @@ I use `mpd` as my user:
 ```bash
 systemctl enable --now mpd-mpris.service
 systemctl enable --now mpris-proxy
+systemctl enable --now mpd.socket
 ```
 
 
