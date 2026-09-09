@@ -15,9 +15,9 @@ pacman -Syu bluez bluez-utils pluseaudio-bluetooth mpd-mpris mpv-mpris mpd
 I use `mpd` as my user:
 
 ```bash
-systemctl enable --now mpd-mpris.service
-systemctl enable --now mpris-proxy
-systemctl enable --now mpd.socket
+systemctl --user enable --now mpd-mpris.service
+systemctl --user enable --now mpris-proxy
+systemctl --user enable --now mpd.socket
 ```
 
 
